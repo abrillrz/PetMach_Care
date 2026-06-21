@@ -1,0 +1,62 @@
+[
+  {
+    "idServicio": 1,
+    "nombreServicio": "Shampoo para mascotas",
+    "categoria": "Producto",
+    "precio": 4200,
+    "duracionMinutos": 0,
+    "requiereTurno": false,
+    "descripcion": "Shampoo suave para la higiene de perros y gatos.",
+    "imagenUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dove_shampoo_bottle.jpg"
+  },
+  {
+    "idServicio": 2,
+    "nombreServicio": "Cepillo para pelaje",
+    "categoria": "Producto",
+    "precio": 3500,
+    "duracionMinutos": 0,
+    "requiereTurno": false,
+    "descripcion": "Cepillo para desenredar y mantener limpio el pelaje de la mascota.",
+    "imagenUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dog_brush.JPG"
+  },
+  {
+    "idServicio": 3,
+    "nombreServicio": "Juguete mordillo",
+    "categoria": "Producto",
+    "precio": 2800,
+    "duracionMinutos": 0,
+    "requiereTurno": false,
+    "descripcion": "Juguete resistente para que la mascota pueda morder y entretenerse.",
+    "imagenUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dog_Toy_%281603927038%29.jpg"
+  },
+  {
+    "idServicio": 4,
+    "nombreServicio": "Collar ajustable",
+    "categoria": "Producto",
+    "precio": 5000,
+    "duracionMinutos": 0,
+    "requiereTurno": false,
+    "descripcion": "Collar regulable para perros o gatos, cómodo y resistente.",
+    "imagenUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Luxury_dog_collar.jpg"
+  },
+  {
+    "idServicio": 5,
+    "nombreServicio": "Baño para mascotas",
+    "categoria": "Servicio",
+    "precio": 6500,
+    "duracionMinutos": 60,
+    "requiereTurno": true,
+    "descripcion": "Servicio de baño completo para mascotas, incluye shampoo, enjuague y secado.",
+    "imagenUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cute_bath_dog.jpg"
+  },
+  {
+    "idServicio": 6,
+    "nombreServicio": "Corte de pelo para mascotas",
+    "categoria": "Servicio",
+    "precio": 8500,
+    "duracionMinutos": 75,
+    "requiereTurno": true,
+    "descripcion": "Servicio de corte de pelo para mascotas según tipo de pelaje y preferencia del dueño.",
+    "imagenUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dog_grooming.JPG"
+  }
+]
