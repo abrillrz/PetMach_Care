@@ -8,25 +8,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-50">
+<body class="bg-pink-100">
     <nav class="bg-white shadow-md">
         <div class="max-w-7xl mx-auto px-6">
             <div class="flex justify-between items-center h-16">
 
                 <div>
-                    <h1 class="text-2xl font-bold text-emerald-600">
+                    <h1 class="text-2xl font-bold text-pink-800">
                         PetMach Care
                     </h1>
                 </div>
 
                 <div class="hidden md:flex gap-8">
-                    <a href="/" class="hover:text-emerald-600">Inicio</a>
-                    <a href="/productos" class="hover:text-emerald-600">Productos</a>
+                    <a href="/" class="hover:text-pink-800">Inicio</a>
+                    <a href="/productos" class="hover:text-pink-800">Productos</a>
                 </div>
                   <div class="flex gap-4">
 
-                    <button class="px-4 py-2 bg-emerald-600 text-white rounded-lg">
-                        Cart (0)
+                    <button class="px-4 py-2 bg-pink-800 text-white rounded-lg">
+                        Carrito (0)
                     </button>
                 </div>
 
@@ -38,29 +38,27 @@
 
         <div class="text-center mb-12">
             <h1 class="text-4xl font-bold text-gray-800">
-                Productos
+                Servicios
             </h1>
 
             <p class="text-gray-600 mt-3">
-                Productos disponibles para el cuidado de tus mascotas.
+                Servicios disponibles para el cuidado de tus mascotas
             </p>
         </div>
 
         <div class="grid md:grid-cols-3 gap-8">
 
             {% for servicio in servicios %}
-
-            <div class="bg-white rounded-xl overflow-hidden shadow-lg">
-                <img
+                      <div class="bg-white rounded-xl overflow-hidden shadow-xl transition-transform duration-500 ease-out transform hover:scale-105 cursor-pointer">
+          
+                 <div class="flex justify-center pt-6 bg-pink-200 pb-6">
+                    <img
                     src="{{ servicio.imagenUrl }}"
-                    alt="{{ servicio.nombre }}"
-                    class="h-56 w-full object-cover"
-                >
-
+                    alt="{{ servicio.nombreServicio }}"
+                    class="h-56 object-center rounded-2xl"
+                    >
+                 </div>
                 <div class="p-6">
-                    <span class="inline-block bg-emerald-100 text-emerald-700 text-sm px-3 py-1 rounded-full mb-3">
-                        {{ servicio.categoria }}
-                    </span>
 
                     <h3 class="text-2xl font-bold mb-3">
                         {{ servicio.nombre }}
@@ -70,15 +68,15 @@
                         {{ servicio.descripcion }}
                     </p>
 
-                    <p class="text-emerald-600 font-bold text-xl mb-5">
+                    <p class="text-pink-800 font-bold text-xl mb-5">
                         ${{ servicio.precio }}
                     </p>
 
-                    <button class="bg-emerald-600 text-white px-5 py-2 rounded-lg">
+                    <button class="bg-pink-800 text-white px-5 py-2 rounded-lg">
                         Agregar al carrito
                     </button>
                 </div>
-            </div>
+            </div>   
 
             {% endfor %}
 
